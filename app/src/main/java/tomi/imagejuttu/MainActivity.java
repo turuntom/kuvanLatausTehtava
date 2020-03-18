@@ -41,9 +41,6 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listView);
         imageUrls = new ArrayList<String>();
         tagLista = new ArrayList<String>();
-        //imageUrls.add("https://loremflickr.com/300/300/penis");
-        //imageUrls.add("https://loremflickr.com/300/300/dog");
-        //imageUrls.add("https://loremflickr.com/300/300/cat");
 
 
         lisaaTagNappi.setOnClickListener(new View.OnClickListener() {
